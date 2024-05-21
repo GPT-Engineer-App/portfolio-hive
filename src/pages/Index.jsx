@@ -90,6 +90,15 @@ const Index = () => {
               </Link>
             </HStack>
           </Box>
+          <Heading as="h2" size="lg">
+            Contact Me
+          </Heading>
+          <Box borderWidth="1px" borderRadius="lg" overflow="hidden" width="100%" p={4}>
+            <Text mt={2}>Feel free to reach out to me for any inquiries or collaborations.</Text>
+            <Button colorScheme="teal" size="lg" mt={4} as="a" href="mailto:johndoe@example.com">
+              Send Me an Email
+            </Button>
+          </Box>
         </VStack>
       </VStack>
     </Container>
