@@ -41,18 +41,54 @@ const Index = () => {
               Project One
             </Heading>
             <Text mt={2}>A brief description of the project goes here. It can be a few sentences long.</Text>
+            <HStack mt={4} spacing={4}>
+              <Link href="https://github.com/johndoe/project-one" isExternal>
+                <Button colorScheme="teal" variant="outline">
+                  GitHub
+                </Button>
+              </Link>
+              <Link href="https://project-one-live.com" isExternal>
+                <Button colorScheme="teal" variant="outline">
+                  Live
+                </Button>
+              </Link>
+            </HStack>
           </Box>
           <Box borderWidth="1px" borderRadius="lg" overflow="hidden" width="100%" p={4}>
             <Heading as="h3" size="md">
               Project Two
             </Heading>
             <Text mt={2}>A brief description of the project goes here. It can be a few sentences long.</Text>
+            <HStack mt={4} spacing={4}>
+              <Link href="https://github.com/johndoe/project-two" isExternal>
+                <Button colorScheme="teal" variant="outline">
+                  GitHub
+                </Button>
+              </Link>
+              <Link href="https://project-two-live.com" isExternal>
+                <Button colorScheme="teal" variant="outline">
+                  Live
+                </Button>
+              </Link>
+            </HStack>
           </Box>
           <Box borderWidth="1px" borderRadius="lg" overflow="hidden" width="100%" p={4}>
             <Heading as="h3" size="md">
               Project Three
             </Heading>
             <Text mt={2}>A brief description of the project goes here. It can be a few sentences long.</Text>
+            <HStack mt={4} spacing={4}>
+              <Link href="https://github.com/johndoe/project-three" isExternal>
+                <Button colorScheme="teal" variant="outline">
+                  GitHub
+                </Button>
+              </Link>
+              <Link href="https://project-three-live.com" isExternal>
+                <Button colorScheme="teal" variant="outline">
+                  Live
+                </Button>
+              </Link>
+            </HStack>
           </Box>
         </VStack>
       </VStack>
