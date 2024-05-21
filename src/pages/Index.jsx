@@ -37,6 +37,7 @@ const Index = () => {
             Projects
           </Heading>
           <Box borderWidth="1px" borderRadius="lg" overflow="hidden" width="100%" p={4}>
+            <Image src="https://via.placeholder.com/150" alt="Project One" mb={4} />
             <Heading as="h3" size="md">
               Project One
             </Heading>
@@ -55,6 +56,7 @@ const Index = () => {
             </HStack>
           </Box>
           <Box borderWidth="1px" borderRadius="lg" overflow="hidden" width="100%" p={4}>
+            <Image src="https://via.placeholder.com/150" alt="Project Two" mb={4} />
             <Heading as="h3" size="md">
               Project Two
             </Heading>
@@ -73,6 +75,7 @@ const Index = () => {
             </HStack>
           </Box>
           <Box borderWidth="1px" borderRadius="lg" overflow="hidden" width="100%" p={4}>
+            <Image src="https://via.placeholder.com/150" alt="Project Three" mb={4} />
             <Heading as="h3" size="md">
               Project Three
             </Heading>
