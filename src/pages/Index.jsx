@@ -1,4 +1,5 @@
 import { Container, VStack, HStack, Box, Text, Heading, Image, IconButton, Link, Button, Flex } from "@chakra-ui/react";
+import { Link as RouterLink } from "react-router-dom";
 import ColorModeToggle from "../components/ColorModeToggle";
 import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
 
@@ -29,6 +30,9 @@ const Index = () => {
             <IconButton aria-label="Email" icon={<FaEnvelope />} size="lg" />
           </Link>
         </HStack>
+        <Button colorScheme="teal" size="lg" as={RouterLink} to="/resume">
+          Quick View Resume
+        </Button>
         <Button colorScheme="teal" size="lg" as="a" href="/sample_resume.pdf" download>
           Download Resume
         </Button>
