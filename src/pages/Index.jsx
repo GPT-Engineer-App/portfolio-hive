@@ -29,7 +29,7 @@ const Index = () => {
             <IconButton aria-label="Email" icon={<FaEnvelope />} size="lg" />
           </Link>
         </HStack>
-        <Button colorScheme="teal" size="lg">
+        <Button colorScheme="teal" size="lg" as="a" href="/sample_resume.pdf" download>
           Download Resume
         </Button>
         <VStack spacing={4} align="start" width="100%">
